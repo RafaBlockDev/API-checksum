@@ -1,0 +1,32 @@
+{
+  "name": "splendor-explorer-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node src/index.js",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-pricing": "^3.470.0",
+    "@aws-sdk/credential-providers": "^3.470.0",
+    "@polkadot/api": "^10.11.1",
+    "@substrate/api-sidecar": "^17.3.2",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongodb": "^6.3.0",
+    "ws": "^8.14.2"
+  }
+}
